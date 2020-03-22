@@ -10,7 +10,7 @@
 
 	require_once "autoload.php";
 	require_once "functions.php";
-	require_once "config.php-dist";
+	require_once "config.php";
 
 	// defaults
 	define_default('PURGE_INTERVAL', 3600); // seconds
