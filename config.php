@@ -3,12 +3,12 @@
 	// *** Database configuration (important!) ***
 	// *******************************************
 
-	define('DB_TYPE', 'pgsql');
-	define('DB_HOST', ENV['DB_HOST']);
-	define('DB_USER', ENV['DB_USER']);
-	define('DB_NAME', ENV['DB_NAME']);
-	define('DB_PASS', ENV['DB_PASS']);
-	define('DB_PORT', '5432');
+	define('DB_TYPE', getenv('DB_TYPE'));
+	define('DB_HOST', getenv('DB_HOST'));
+	define('DB_USER', getenv('DB_USER'));
+	define('DB_NAME', getenv('DB_NAME'));
+	define('DB_PASS', getenv('DB_PASS'));
+	define('DB_PORT', getenv('DB_PORT'));
 
 	define('MYSQL_CHARSET', 'UTF8');
 	// Connection charset for MySQL. If you have a legacy database and/or experience
@@ -18,7 +18,7 @@
 	// *** Basic settings (important!) ***
 	// ***********************************
 
-	define('SELF_URL_PATH', ENV['SELF_URL_PATH']);
+	define('SELF_URL_PATH', getenv('SELF_URL_PATH'));
 	// This should be set to a fully qualified URL used to access
 	// your tt-rss instance over the net.
 	// The value should be a constant string literal. Please don't use
