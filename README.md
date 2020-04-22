@@ -1,3 +1,8 @@
+This version of TT-RSS is modified to capable of deployment on heroku.
+
+=============
+
+
 Tiny Tiny RSS
 =============
 
