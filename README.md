@@ -1,4 +1,4 @@
-This version of TT-RSS is modified to capable of deployment on heroku.
+This version of TT-RSS is modified to be capable of deployment on heroku.
 
 =============
 
